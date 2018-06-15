@@ -118,9 +118,9 @@
 			//"Bibliotecas": biblioteca
 		};
 		
-		var imageUrl = 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Sydney_Opera_House_-_Dec_2008.jpg/1024px-Sydney_Opera_House_-_Dec_2008.jpg',  imageBounds = [center, [-35.8650, 154.2094]];
+		var imageUrl = 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Sydney_Opera_House_-_Dec_2008.jpg/1024px-Sydney_Opera_House_-_Dec_2008.jpg',  
+		    imageBounds = [[40.712216, -74.22655], [40.773941, -74.12544]];
 		L.imageOverlay(imageUrl, imageBounds).addTo(map);
-		L.imageOverlay(imageUrl, imageBounds).bringToFront();
 		
 		var searchControl = new L.Control.Search({
 			layer: archivo, 
